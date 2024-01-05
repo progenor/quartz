@@ -1,4 +1,4 @@
 ## Chose repo
 
-- [Edvin](/UniversityEdvinWebsite)
+- [Edvin](/UniversityEdvin)
 - [Progenor](/Progenor)
