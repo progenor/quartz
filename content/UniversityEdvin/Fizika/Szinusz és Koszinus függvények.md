@@ -8,7 +8,7 @@ $$
 cos\alpha = \frac{\text{szög melletti befogó}}{\text{átfogó}}
 $$
 
-Periodikus függvények, amelyeket főleg a körmozgás és a kvázi-stacionárius feszültség/áram tanulmányozásánál fogunk használni. 
+Periodikus függvények, amelyeket főleg a körmozgás és a kvázi-stacionárius feszültség/áram tanulmányozásánál fogunk használni.
 Ezekben az esetekben az $\alpha$ szöget fázisszögnek hívjuk (vagy röviden fázis), periodikusan
 változik az idő függvényében és következő formában írjuk fel az értékét: $\alpha$ = $\alpha_0$ + $\omega$t, ahol:
 
@@ -25,19 +25,21 @@ $$
 $\alpha_0$ szerepe:
 
 - mivel időben lejátszódó folyamatokat fogunk tanulmányozni, szükségünk van egy
-vonatkoztatási rendszerre az idő múlásának tekintetében. Az $\alpha_0$ kezdőfázis arra
-szolgál, hogy a kezdő pillanatban tudjuk megadni egy függvény értékét (jelen
-esetben egyszerűen a cos vagy sin függvények értékét).
+  vonatkoztatási rendszerre az idő múlásának tekintetében. Az $\alpha_0$ kezdőfázis arra
+  szolgál, hogy a kezdő pillanatban tudjuk megadni egy függvény értékét (jelen
+  esetben egyszerűen a cos vagy sin függvények értékét).
 
 **Példa:** egyenletes körmozgás ($\omega$= áll)
 Egy m-tömegű anyagi pont az 1-es pontból kiindulva r-sugarú pályán egyenletes körmozgást végez (az $\omega$-val jelzett szögsebessége állandó, ami azt jelenti, hogy egyenlő időközönkét az r sugár egyenlő szögtartományt érint). Az 1-es pontban az anyagi pont poláris koordinátái [r, $\alpha_0$]. Az anyagi pont t-idő elteltével a 2-es pontba található, amelynek poláris koordinátái [r,$\alpha$], ahol $\alpha$ = $\alpha_0$ + $\omega$t.
 Az anyagi ponthelyzeteit megadó descartes-i koordinátákat a szinusz és koszinusz függvények
 segítségével a következőképpen adhatjuk meg:
+
 $$
 x_1 = r*cos\alpha_0 \\\text{ és }\\ y_1 = r*sin\alpha_0\\
 illetve\\
 x_2 = r*cos(\alpha_0 + \omega_t) \\\text{ és }\\
- y_1 = r*sin(\alpha_0 + \omega_t)$$
+ y_1 = r*sin(\alpha_0 + \omega_t)
+$$
 
 ![Screenshot from 2023-11-12 16-38-52.png](Szinusz%20e%CC%81s%20Koszinus%20fu%CC%88ggve%CC%81nyek/Screenshot_from_2023-11-12_16-38-52.png)
 

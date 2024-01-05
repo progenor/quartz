@@ -3,8 +3,8 @@
 ## Skaláris mennyiség (röviden skalár)
 
 - egy olyan fizikai mennyiség, amelyet kizárólag az értéke jellemez (megj. fontos a
-mértékegység és a nagyságrend ld. az előző alpontokat),
-- példa: tömeg, egyezményes jele *m*; idő, jele ***t*** stb.
+  mértékegység és a nagyságrend ld. az előző alpontokat),
+- példa: tömeg, egyezményes jele _m_; idő, jele **_t_** stb.
 
 ## Vektoriális mennyiség (röviden vektor)
 
@@ -12,18 +12,18 @@ mértékegység és a nagyságrend ld. az előző alpontokat),
 
 példák:
 
-- *Helyzetvektor*: két pont közötti távolság az skaláris mennyiség, amelyet méterben
-fejezünk ki, azonban amikor az egyik pont helyzetét a másikhoz viszonyítva kell
-megadjuk már egészen más a helyzet. Mivel a távolságot egyenes vonalban mérjük
-definiáljuk a két pontot összekötő egyenest, amely nem más, mint a helyzetvektor
-iránya, majd pedig definiáljuk, hogy ezen az egyenesen merre található a pont és ez
-adja meg az irányítást. A modulusz megegyezik a két pont közötti távolság
-értékével.
-- *Sebességvektor*: megadja, hogy adott irányba és adott irányítással egységnyi idő
-alatt mekkora utat tesz meg egy adott objektum. A napi életben szinte mindig csak
-a sebesség értékét használjuk (hány km/h óra sebességgel haladunk), de azért
-mindenki tudja azt, hogy hova akar megérkezni és azt is, hogy milyen útvonalon
-fog haladni, amelyek éppen az irány és irányítás jellemzőket takarják.
+- _Helyzetvektor_: két pont közötti távolság az skaláris mennyiség, amelyet méterben
+  fejezünk ki, azonban amikor az egyik pont helyzetét a másikhoz viszonyítva kell
+  megadjuk már egészen más a helyzet. Mivel a távolságot egyenes vonalban mérjük
+  definiáljuk a két pontot összekötő egyenest, amely nem más, mint a helyzetvektor
+  iránya, majd pedig definiáljuk, hogy ezen az egyenesen merre található a pont és ez
+  adja meg az irányítást. A modulusz megegyezik a két pont közötti távolság
+  értékével.
+- _Sebességvektor_: megadja, hogy adott irányba és adott irányítással egységnyi idő
+  alatt mekkora utat tesz meg egy adott objektum. A napi életben szinte mindig csak
+  a sebesség értékét használjuk (hány km/h óra sebességgel haladunk), de azért
+  mindenki tudja azt, hogy hova akar megérkezni és azt is, hogy milyen útvonalon
+  fog haladni, amelyek éppen az irány és irányítás jellemzőket takarják.
 
 Az általánosan használt jelölés egy nyíl az adott fizikai mennyiséget jelző betű fölött: pl.
 helyzetvektor $\vec{r}$, sebességvektor $\vec{v}$, erő $\vec{F}$, impulzus $\vec{p}$ stb. (megjegyzés: könyvekben és internetes oldalakon is találhatunk olyan jelölésformát, amikor a vektoriális mennyiséget vastagított betűvel

@@ -62,37 +62,32 @@ Az alábbiakban tekintsük a következő két komplex számot $\underline{z_1} =
 amelyekkel elvégezzük az egyszerű számításokat (az általánosítást az olvasóra bízzuk).
 
 - összeadás:
-$\underline{z_3} = \underline{z_1} + \underline{z_2} = a + jb + c + jd = (a + c) + j(b + d)$,
-    
-    ahol az eredményként származó komplex szám valós része Re{$\underline{z_3}$} = a + c és imaginárius része Im{$\underline{z_3}$} = b + d, modulusza $\underline{z_3} = |\underline{z_3}| = \sqrt{(a + c)^2 + (b + d)^2}$, valamint fázisszöge $\varphi_3$ = arctg $\frac{b+d}{a+c}$ 
-    
-    (**Megjegyzés:** a modulusz és fázis számítás hasonlóképpen történik a további műveletek
-    esetén is). A komplex számok összeadása grafikusan a paralelogramma szabály szerint történik)
-    
+  $\underline{z_3} = \underline{z_1} + \underline{z_2} = a + jb + c + jd = (a + c) + j(b + d)$,
+      ahol az eredményként származó komplex szám valós része Re{$\underline{z_3}$} = a + c és imaginárius része Im{$\underline{z_3}$} = b + d, modulusza $\underline{z_3} = |\underline{z_3}| = \sqrt{(a + c)^2 + (b + d)^2}$, valamint fázisszöge $\varphi_3$ = arctg $\frac{b+d}{a+c}$
+
+      (**Megjegyzés:** a modulusz és fázis számítás hasonlóképpen történik a további műveletek
+      esetén is). A komplex számok összeadása grafikusan a paralelogramma szabály szerint történik)
 
 ![Screenshot from 2023-11-12 21-11-20.png](Komplex%20sza%CC%81mok/Screenshot_from_2023-11-12_21-11-20.png)
 
 - kivonás:
-$\underline{z_4} = \underline{z_1} - \underline{z_2} = \underline{z_1} + \underline{(-z_2}) = a + jb - (c + jd) = (a - c) + j(b - d)$
-A komplex számok összeadása grafikusan a paralelogramma szabály szerint történik.
+  $\underline{z_4} = \underline{z_1} - \underline{z_2} = \underline{z_1} + \underline{(-z_2}) = a + jb - (c + jd) = (a - c) + j(b - d)$
+  A komplex számok összeadása grafikusan a paralelogramma szabály szerint történik.
 - szorzás:
-$\underline{z_5} = \underline{z_1z_2} = (a + jb)(c + jd) = (ac + j^2bd) + j(ad + bc) = (ac + \sqrt{-1}^2bd) + j(ad + bc) = (ac - bd) + j(ad + bc)$
+  $\underline{z_5} = \underline{z_1z_2} = (a + jb)(c + jd) = (ac + j^2bd) + j(ad + bc) = (ac + \sqrt{-1}^2bd) + j(ad + bc) = (ac - bd) + j(ad + bc)$
 - komplex konjugálás: a $\underline{z_1} = a + jb$ komplex szám komplex konjugáltját úgy képezzük,
-hogy a komplex szám imaginárius részének értékét megszorozzuk (-1)-el. így $ \underline{z_1} ^* = a - jb$.
+  hogy a komplex szám imaginárius részének értékét megszorozzuk (-1)-el. így $ \underline{z_1} ^\* = a - jb$.
 - négyzetre emelés: a z1 = a + jb komplex szám négyzetét a saját komplex konjugáltjával
-történő szorzás útján számítjuk ki: $ \underline{z_1} * \underline{z_1} ^* = (a + jb)(a - jb) = a2 + b2 = |\underline{z_1}|^2$.
-    
-    Tulajdonképpen így számítjuk ki a komplex szám moduluszát: $\underline{z_1} = |\underline{z_1}| = \sqrt{\underline{z_1z_1}}^* = \sqrt{a^2 + b^2}$.
-    
+  történő szorzás útján számítjuk ki: $ \underline{z_1} _ \underline{z_1} ^_ = (a + jb)(a - jb) = a2 + b2 = |\underline{z_1}|^2$.
+      Tulajdonképpen így számítjuk ki a komplex szám moduluszát: $\underline{z_1} = |\underline{z_1}| = \sqrt{\underline{z_1z_1}}^* = \sqrt{a^2 + b^2}$.
 - osztás: ez a művelet egy kicsit összetettebb az eddigieknél, mivel a komplex számok
-osztásakor a nevezőben nem maradhat komplex mennyiség, így minden esetben az osztónak a komplex konjugáltjával kell osztani és szorozni a törtet:
-    
-    $$
-    \underline{z_6} = \frac{\underline{z}_1} {\underline{z}_2} 
-    = \frac{a + jb}{c + jd} 
-    =\\[12pt] \frac{(a + jb)(c - jd)}{(c + jd)(c - jd)}
-    =\\[12pt]\frac{(ac + bd) + j(bc - ad)}{c^
-    2 + d^2} 
-    =\\[12pt] \frac{ac + bd}{c^2 + d^2} + j
-    \frac{bc - ad}{c^2 + d^2}
-    $$
+  osztásakor a nevezőben nem maradhat komplex mennyiség, így minden esetben az osztónak a komplex konjugáltjával kell osztani és szorozni a törtet:
+      $$
+      \underline{z_6} = \frac{\underline{z}_1} {\underline{z}_2}
+      = \frac{a + jb}{c + jd}
+      =\\[12pt] \frac{(a + jb)(c - jd)}{(c + jd)(c - jd)}
+      =\\[12pt]\frac{(ac + bd) + j(bc - ad)}{c^
+      2 + d^2}
+      =\\[12pt] \frac{ac + bd}{c^2 + d^2} + j
+      \frac{bc - ad}{c^2 + d^2}
+      $$

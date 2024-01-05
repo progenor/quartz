@@ -5,7 +5,8 @@
 Egy $\vec{F}$ erő elemi $d\vec{l}$ elmozdulás során által végzett mechanikai munkát az erő és az elemi
 elmozdulás vektor skaláris szorzataként definiáljuk és az (1.) képlettel, míg egy véges elmozdulás esetében az elemi munka integráljaként adható meg (2.).
 
-$$ dL = \vec{F}d\vec{l} \qquad \text{ 1. }\\
+$$
+dL = \vec{F}d\vec{l} \qquad \text{ 1. }\\
 L = \int_A^B \vec{F}d\vec{l} \qquad \text{ 2.}
 $$
 

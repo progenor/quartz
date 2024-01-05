@@ -61,9 +61,9 @@ Sok lehetőség áll rendelkezésre ahhoz, hogy a sebesség definícióját át�
 alakba. Lássunk néhányat ezek közül:
 
 $$
-\vec{v} = 
+\vec{v} =
 \frac{d\vec{r}}{dt}=
-\frac{d}{dt}(x\vec{i} + y\vec{j} + z\vec{k}) 
+\frac{d}{dt}(x\vec{i} + y\vec{j} + z\vec{k})
 = \frac{dx}{dt}\vec{i} + \frac{dy}{dt}\vec{j} +\frac{dz}{dt}\vec{k} = v_x\vec{i} + v_y\vec{j} + v_z\vec{k} = v\vec{e}_v
 $$
 
@@ -116,8 +116,8 @@ $$
 \vec{a} = \frac{d\vec{v}}{dt} =
 \frac{d}{dt}(\frac{d\vec{r}}{dt}) =
 d^2\vec{r}dt^2 =\frac{d^2x}{dt^2}\vec{i}
-+\frac{d^2y}{dt^2}\vec{j} 
-+\frac{d^2z}{dt^2}\vec{k} 
++\frac{d^2y}{dt^2}\vec{j}
++\frac{d^2z}{dt^2}\vec{k}
 = a_x\vec{i} + a_y\vec{j} + a_z\vec{k} = a\vec{e}_a
 $$
 
@@ -165,7 +165,7 @@ található. Ezért a 3 - 1 - $4_\Delta$-ben $\Delta$ v ~= v$\Delta\theta$ és a
 a gyorsulás modulusza
 
 $$
-a = a_n = 
+a = a_n =
 \lim_{\Delta t\to\text{0}}\frac{\Delta v}{\Delta t}= \lim_{\Delta t\to\text{0}}\frac{v\Delta \theta}{\Delta t}= v\lim_{\Delta t\to\text{0}}\frac{\Delta s}{\Delta t}\lim_{\Delta s\to\text{0}}\frac{\Delta\theta}{\Delta s}= v\frac{1}{R}v = \frac{v^2}{R}
 $$
 
