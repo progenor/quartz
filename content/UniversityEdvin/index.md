@@ -4,16 +4,16 @@
 
 # Algebra
 
-- [Algebra](/Algebra)
+- [Algebra](UniversityEdvin/Algebra)
 
 # Analízis
 
-- [Analízis](/Analízis)
+- [Analízis](UniversityEdvin/Analízis)
 
 # Fizika
 
-- [Fizika](/Fizika)
+- [Fizika](UniversityEdvin/Fizika)
 
 # Programozás
 
-- [Programozás](/Programozás)
+- [Programozás](UniversityEdvin/Programozás)
